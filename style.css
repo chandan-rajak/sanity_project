@@ -1,0 +1,395 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.nav-link {
+    color: #fff !important;
+    margin-left: 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+header {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    padding: 70px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Section Styling */
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #4e54c8;
+    font-weight: 600;
+}
+
+/* Feature Boxes */
+.feature-box {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-8px);
+}
+
+/* Batches Table */
+.table {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table thead {
+    background: #4e54c8;
+    color: white;
+}
+
+.table td,
+.table th {
+    text-align: center;
+    padding: 15px;
+}
+
+/* About Page */
+.about-text {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.8;
+}
+
+/* Contact Form */
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+form label {
+    font-weight: 500;
+}
+
+form input,
+form textarea {
+    border-radius: 8px;
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+/* Footer */
+footer {
+    background: #2c2c54;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+}
+/* Navbar custom */
+.navbar {
+  transition: 0.4s ease;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+/* Link hover & active */
+.navbar-nav .nav-link {
+  color: #333;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #0d6efd;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  transform: scale(1.04);
+}
+
+/* Add top padding so content isn't hidden under fixed navbar */
+body {
+  padding-top: 90px;
+}
+.me-2{
+    border-radius: 50%;
+    height: 100;
+    width: 100;
+}
+.feature-card {
+    background: #ffffff;
+    padding: 30px 20px;
+    border-radius: 16px;
+    text-align: center;
+    height: 100%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+}
+
+.feature-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+.feature-card h4 {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #0d6efd;
+}
+
+.feature-card p {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* for batches.html */
+/* Batch Header */
+.batch-header {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+    padding: 120px 20px 60px;
+}
+
+.batch-header h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.batch-header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Batch Card */
+.batch-card {
+    background: white;
+    border-radius: 18px;
+    padding: 25px;
+    height: 100%;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.batch-card:hover {
+    transform: translateY(-10px);
+}
+
+.batch-card img {
+    width: 90px;
+    margin-bottom: 15px;
+}
+
+.batch-card h4 {
+    font-weight: 600;
+    color: #4e54c8;
+}
+
+.batch-card .subject {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.batch-card ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.batch-card ul li {
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+.batch-card .btn {
+    border-radius: 25px;
+    padding: 8px 25px;
+}
+/* about.html */
+.about-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  height: 100%;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+}
+/* contact us */
+.contact-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.form-control {
+  border-radius: 8px;
+}
+
+/* JS Animation */
+.batch-card,
+.about-card {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+}
+
+.batch-card.show,
+.about-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Navbar on scroll */
+.nav-scrolled {
+  background: rgba(13, 110, 253, 0.95);
+  padding: 8px 0;
+}
+/* =========================
+   Footer Styling
+========================= */
+footer {
+  background-color: #1c1f26;
+  color: #ffffff;
+  margin-top: 60px;
+}
+
+footer h4,
+footer h6 {
+  color: #ffffff;
+  letter-spacing: 0.5px;
+}
+
+footer p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+footer .text-muted {
+  color: #b5b5b5 !important;
+}
+
+/* Footer Links */
+footer a {
+  color: #b5b5b5;
+  transition: color 0.3s ease, padding-left 0.3s ease;
+}
+
+footer a:hover {
+  color: #0d6efd;
+  padding-left: 5px;
+}
+
+/* Divider */
+footer hr {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Bottom Section */
+footer .d-flex p {
+  font-size: 0.85rem;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+  footer {
+    text-align: center;
+  }
+
+  footer a:hover {
+    padding-left: 0;
+  }
+}
